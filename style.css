@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.ad-container {
+    position: relative;
+}
+.img-wrap {
+    width: 500px;
+}
+
+img {
+    max-width: 100%;
+}
+.link a{
+    position: absolute;
+    background-color: #ffcb2b;
+    padding: 1rem;
+    top: 295px;
+    left: 203px;
+    width: 244px;
+    border-radius: 1rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: large;
+    color: #2a353a;
+    box-shadow: 1px 1px 3px 1px rgb(75, 74, 74);
+}
+.link a:hover {
+    background-color: #daaf2f;
+    color: #dde4e7;
+}
